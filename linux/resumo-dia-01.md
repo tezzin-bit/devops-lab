@@ -27,3 +27,4 @@ Próximo passo:
 - praticar git diff
 - aprender branches
 - subir o projeto para o GitHub
+- git diff mostra mudanças antes do commit
