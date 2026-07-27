@@ -31,3 +31,30 @@ Registrar minha evolução estudando Linux, Git, Docker, Kubernetes, Cloud e fer
 - git switch
 - git merge
 - git push 
+
+## Scripts disponíveis
+
+### monitor-disco.sh
+
+Verifica o uso da partição raiz ('/') e retorna alerta caso o uso esteja acima do limite configurado.
+
+
+Uso padrão:
+
+```bash
+./monitor-disco.sh
+```
+
+Uso com limite personalizado:
+
+```bash
+./monitor-disco.sh 70
+```
+
+Exemplo de saída:
+
+```text
+Uso atual do disco: 1%
+Limite configurado: 80%
+OK: uso do disco dentro do limite.
+```
