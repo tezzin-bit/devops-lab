@@ -11,7 +11,7 @@ Registrar minha evolução estudando Linux, Git, Docker, Kubernetes, Cloud e fer
 - Scripts Bash
 - Automação para criar estrutura de projetos
 - Resumos de estudo
-- prática com Git e GitHub
+- Prática com Git e GitHub
 
 ## Comandos praticados
 
