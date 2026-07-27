@@ -36,7 +36,7 @@ Registrar minha evolução estudando Linux, Git, Docker, Kubernetes, Cloud e fer
 
 ### monitor-disco.sh
 
-Verifica o uso da partição raiz ('/') e retorna alerta caso o uso esteja acima do limite configurado.
+Verifica o uso da partição raiz (`/`) e retorna alerta caso o uso esteja acima do limite configurado.
 
 
 Uso padrão:
