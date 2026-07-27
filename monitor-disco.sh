@@ -7,7 +7,7 @@ USO=$(df / | tail -1 | awk '{print $5}' | sed 's/%//')
 echo "Uso atual do disco: ${USO}%"
 echo "Limite configurado: ${LIMITE}%"
 
-if [ "$USO" -ge "LIMITE" ]; then
+if [ "$USO" -ge "$LIMITE" ]; then
  echo "ALERTA: uso do disco acima do limite."
  exit 1
 else
