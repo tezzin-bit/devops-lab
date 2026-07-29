@@ -17,7 +17,7 @@ fi
 mkdir -p "$DESTINO"
 
 NOME_BACKUP=$(basename "$ORIGEM")
-ARQUIVO_BACKUP="${DESTINO}/${NOME_BACKUP}-${DATA}.taz.gz"
+ARQUIVO_BACKUP="${DESTINO}/${NOME_BACKUP}-${DATA}.tar.gz"
 
 tar -czf "$ARQUIVO_BACKUP" "$ORIGEM"
 
