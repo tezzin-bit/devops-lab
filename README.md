@@ -58,3 +58,25 @@ Uso atual do disco: 1%
 Limite configurado: 80%
 OK: uso do disco dentro do limite.
 ```
+### backup.sh
+
+Cria um backup compactado `.tar.gz` de uma pasta informada.
+
+Uso padrão:
+
+```bash
+./scripts/backup.sh linux
+```
+
+Uso com pasta de destino personalizada:
+
+```bash
+./scripts/backup.sh linux meus-backups
+```
+
+Exemplo de saída:
+
+```text
+Backup criado com sucesso:
+backups/linux-2026-07-29_04-54-29.tar.gz
+```
