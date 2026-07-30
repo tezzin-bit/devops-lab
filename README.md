@@ -80,3 +80,29 @@ Exemplo de saída:
 Backup criado com sucesso:
 backups/linux-2026-07-29_04-54-29.tar.gz
 ```
+
+### check-url.sh
+
+Verifica se uma URL está respondendo com status HTTP de sucesso.
+
+Uso:
+
+```bash
+./scripts/check-url.sh https://github.com
+```
+
+Exemplo de sucesso:
+
+```text
+URL verificada: https://github.com
+Status HTTP: 200
+OK: serviço respondendo.
+```
+
+Exemplo de falha:
+
+```text
+URL verificada: https://github.com/pagina-que-nao-existe-abc
+Status HTTP: 404
+ERRO: serviço indisponível ou retornando falha.
+```
